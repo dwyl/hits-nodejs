@@ -5,10 +5,12 @@
 <div align="center">
 
 [![Build Status](https://img.shields.io/travis/dwyl/hits-nodejs.svg?style=flat-square)](https://travis-ci.org/dwyl/hits-nodejs)
-[![HitCount](http://hits.dwyl.io/dwyl/hits-nodejs.svg)](https://github.com/dwyl/hits-nodejs)
+[![HitCount](http://hits.dwyl.com/dwyl/hits-nodejs.svg)](https://github.com/dwyl/hits-nodejs)
 [![codecov.io](https://img.shields.io/codecov/c/github/dwyl/hits-nodejs/master.svg?style=flat-square)](http://codecov.io/github/dwyl/hits-nodejs?branch=master)
+<!-- service unavailabe: https://github.com/dwyl/technology-stack/issues/88
 [![Dependency Status](https://img.shields.io/david/dwyl/hits-nodejs.svg?style=flat-square)](https://david-dm.org/dwyl/hits-nodejs)
 [![devDependency Status](https://img.shields.io/david/dev/dwyl/hits-nodejs.svg?style=flat-square)](https://david-dm.org/dwyl/hits-nodejs#info=devDependencies)
+-->
 </div>
 
 ## Why?
