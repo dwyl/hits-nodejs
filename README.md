@@ -5,8 +5,8 @@
 <div align="center">
 
 [![Build Status](https://img.shields.io/travis/dwyl/hits-nodejs.svg?style=flat-square)](https://travis-ci.org/dwyl/hits-nodejs)
-[![HitCount](http://hits.dwyl.com/dwyl/hits-nodejs.svg)](https://github.com/dwyl/hits-nodejs)
-[![codecov.io](https://img.shields.io/codecov/c/github/dwyl/hits-nodejs/master.svg?style=flat-square)](http://codecov.io/github/dwyl/hits-nodejs?branch=master)
+[![HitCount](https://hits.dwyl.com/dwyl/hits-nodejs.svg)](https://github.com/dwyl/hits-nodejs)
+[![codecov.io](https://img.shields.io/codecov/c/github/dwyl/hits-nodejs/master.svg?style=flat-square)](https://codecov.io/github/dwyl/hits-nodejs?branch=master)
 <!-- service unavailabe: https://github.com/dwyl/technology-stack/issues/88
 [![Dependency Status](https://img.shields.io/david/dwyl/hits-nodejs.svg?style=flat-square)](https://david-dm.org/dwyl/hits-nodejs)
 [![devDependency Status](https://img.shields.io/david/dev/dwyl/hits-nodejs.svg?style=flat-square)](https://david-dm.org/dwyl/hits-nodejs#info=devDependencies)
@@ -50,7 +50,7 @@ https://en.wikipedia.org/wiki/Web_counter
 ## How?
 
 If you simply want to display a "hit count badge" in your project's GitHub page,
-visit: http://hits.dwyl.io to get the Markdown!
+visit: https://hits.dwyl.io to get the Markdown!
 
 
 
@@ -193,8 +193,8 @@ var agent_hash = hash(user_agent_string, 10); // 8HKg3NB5Cf
 
 <sup>1</sup>Note: SHA hash is _always_ 40 characters,
 but we _truncate_ it because 10 alphanumeric characters (_selected from a set of 26 letters + 10 digits_)
-means there are 36<sup>10</sup> = [3,656,158,440,062,976](http://www.wolframalpha.com/input/?i=36%5E10)
-(_three and a half [**Quadrillion**](http://www.wolframalpha.com/input/?i=3,656,158,440,062,976+in+english)_)
+means there are 36<sup>10</sup> = [3,656,158,440,062,976](https://www.wolframalpha.com/input/?i=36%5E10)
+(_three and a half [**Quadrillion**](https://www.wolframalpha.com/input/?i=3,656,158,440,062,976+in+english)_)
 possible strings which we consider "_enough_" entropy.
 (_if you disagree, tell us why in an
   [issue](https://github.com/dwyl/hits-nodejs/issues)_!)
@@ -231,7 +231,7 @@ If you want to run this on Heroku see: https://github.com/dwyl/hits-nodejs/issue
 ### User Agents
 
 How many **user agents** (web browsers + crawlers) are there?
-there *appear* to be ***fewer than a couple of thousand*** user agents. http://www.useragentstring.com/pages/useragentstring.php
+there *appear* to be ***fewer than a couple of thousand*** user agents. https://www.useragentstring.com/pages/useragentstring.php
 which means we could store them using a numeric index; 1 - 3000
 
 But, storing the user agents using a numeric index means we
@@ -244,7 +244,7 @@ https://github.com/dwyl/aguid
 ### Log Formats
 
 + Apache Log Sample:
-http://www.monitorware.com/en/logsamples/apache.php
+https://www.monitorware.com/en/logsamples/apache.php
 (_looked at the existing log formats, all were too verbose/wasteful for us!_)
 
 ### Node.js http module headers
