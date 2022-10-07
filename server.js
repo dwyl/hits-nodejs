@@ -5,7 +5,7 @@ var make_svg = require('./lib/make_svg.js');
 var extract = require('./lib/extract_request_data.js');
 var format = require('./lib/format_hit.js')
 
-var FAVICON = 'http://i.imgur.com/zBEQq4w.png'; // dwyl favicon
+var FAVICON = 'https://i.imgur.com/zBEQq4w.png'; // dwyl favicon
 var HEAD = require('./lib/headers.json'); // stackoverflow.com/a/2068407/1148249
 
 // plain node.js http server (no fancy framework required!)
